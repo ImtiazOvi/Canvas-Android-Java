@@ -10,6 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".basic1.CanvasBasicActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+        </activity>
+
+
+        <activity android:name=".linedraw.LineDrawActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+        </activity>
+
+
+        <activity android:name=".circularfrombitmap.CropBitmap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,6 +37,9 @@
             </intent-filter>
 
         </activity>
+
+
+
     </application>
 
 </manifest>
