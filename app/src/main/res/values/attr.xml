@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AwesomeSpinnerStyle">
+        <attr name="spinnerDirection" format="string">
+            <flag name="ltr" value="0" />
+            <flag name="rtl" value="1" />
+        </attr>
+        <attr name="spinnerHint" format="string"/>
+    </declare-styleable>
+
+    <attr name="color" format="color" />
+    <declare-styleable name="ComboSeekBar">
+        <attr name="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textBottomPadding" format="dimension" />
+        <attr name="dotRadius" format="dimension" />
+        <attr name="thumbRadius" format="dimension" />
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="RadarViewTest">
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="circleCount" format="integer"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="radarColor" format="color"/>
+        <attr name="tailColor" format="color"/>
+    </declare-styleable>
+
+
+
+
+
+
+
+
+</resources>

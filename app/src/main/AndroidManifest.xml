@@ -30,6 +30,17 @@
 
 
         <activity android:name=".circularfrombitmap.CropBitmap">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+        </activity>
+
+
+
+        <activity android:name=".radar1.RaderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
